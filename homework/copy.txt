@@ -1,0 +1,8 @@
+touch srilanka.txt
+vi kerala.txt
+#add 
+#Beautiful backwaters
+#coconut
+#Tourist destinations
+
+cat kerala.txt >> srilanka.txt
