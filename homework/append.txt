@@ -1,0 +1,15 @@
+
+#Going to append content to kerala.txt
+
+vi kerala.txt
+#added Beautiful backwaters and coconut
+cat kerala.txt
+Beautiful backwaters
+coconut
+echo "Tourist destinations" >> kerala.txt
+cat kerala.txt
+Beautiful backwaters
+coconut
+Tourist destinations
+
+
