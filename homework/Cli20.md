@@ -43,27 +43,28 @@ awk '{ gsub("[$]","",$5)}{print $5}' employee.txt | sort | uniq
 7,000
 9,500
 # OS
-##Find out how to determine the OS architecture? (Is it 32 bit or 64 bit)
+## 1. Find out how to determine the OS architecture? (Is it 32 bit or 64 bit) 
 uname -m
-## How to shutdown the OS from the command line.
+## 2. How to shutdown the OS from the command line.
 shutdown -h
-## Find out what shell you are using.
+## 3. Find out what shell you are using.
 echo "$SHELL"
-## Find out which processes are taking more memory from the command line?
-top
-## How do you terminate one process from the command line ?
+## 4. Find out which processes are taking more memory from the command line?
+top or free
+## 5. How do you terminate one process from the command line ?
 kill <pid>
-## What is a symlink ? And how do you create one ?
+## 6. What is a symlink ? And how do you create one ?
 Symlink is nothing but soft link which  can point to another file. Its kind of shortcut.
 ln -s employee.txt soft_link
 # Network
-## ping
- helps to test the reachability of a host.
-## nslookup.
+## 1. ping
+helps to test the reachability of a host.
+## 2. nslookup.
 helps to get information about the DNS(Domain Name System). Its a network administration tool to get IP address or other DNS record.
-## command to find ip address and mac id of the interface
+## 3. command to find ip address and mac id of the interface
 ip route list
 ip link show
-## find the hostname of the machine.
+## 4. find the hostname of the machine.
 hostname
 
+ 
